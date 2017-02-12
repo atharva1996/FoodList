@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA264AEA1E4E472B00C53B0E /* TADAddFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA264AE91E4E472B00C53B0E /* TADAddFoodViewController.m */; };
+		FA6592C01E4FA33F00ED8CB9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6592BF1E4FA33F00ED8CB9 /* CoreLocation.framework */; };
+		FA6592C21E4FAE7200ED8CB9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6592C11E4FAE7200ED8CB9 /* MapKit.framework */; };
+		FAD07A6F1E4F567B00571F63 /* TADFoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD07A6E1E4F567B00571F63 /* TADFoodDetailViewController.m */; };
+		FAF710961E4E3EE200EE175B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF710951E4E3EE200EE175B /* main.m */; };
+		FAF710991E4E3EE200EE175B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF710981E4E3EE200EE175B /* AppDelegate.m */; };
+		FAF7109F1E4E3EE200EE175B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF7109D1E4E3EE200EE175B /* Main.storyboard */; };
+		FAF710A11E4E3EE200EE175B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF710A01E4E3EE200EE175B /* Assets.xcassets */; };
+		FAF710A41E4E3EE200EE175B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF710A21E4E3EE200EE175B /* LaunchScreen.storyboard */; };
+		FAF710AD1E4E415100EE175B /* TADFoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF710AC1E4E415100EE175B /* TADFoodTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA264AE81E4E472B00C53B0E /* TADAddFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADAddFoodViewController.h; sourceTree = "<group>"; };
+		FA264AE91E4E472B00C53B0E /* TADAddFoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADAddFoodViewController.m; sourceTree = "<group>"; };
+		FA6592BF1E4FA33F00ED8CB9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FA6592C11E4FAE7200ED8CB9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FAD07A6D1E4F567B00571F63 /* TADFoodDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADFoodDetailViewController.h; sourceTree = "<group>"; };
+		FAD07A6E1E4F567B00571F63 /* TADFoodDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADFoodDetailViewController.m; sourceTree = "<group>"; };
+		FAF710911E4E3EE200EE175B /* FoodList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF710951E4E3EE200EE175B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAF710971E4E3EE200EE175B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAF710981E4E3EE200EE175B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAF7109E1E4E3EE200EE175B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF710A01E4E3EE200EE175B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF710A31E4E3EE200EE175B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAF710A51E4E3EE200EE175B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF710AB1E4E415100EE175B /* TADFoodTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADFoodTableViewController.h; sourceTree = "<group>"; };
+		FAF710AC1E4E415100EE175B /* TADFoodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADFoodTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF7108E1E4E3EE200EE175B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6592C21E4FAE7200ED8CB9 /* MapKit.framework in Frameworks */,
+				FA6592C01E4FA33F00ED8CB9 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA6592BE1E4FA33E00ED8CB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA6592C11E4FAE7200ED8CB9 /* MapKit.framework */,
+				FA6592BF1E4FA33F00ED8CB9 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAF710881E4E3EE200EE175B = {
+			isa = PBXGroup;
+			children = (
+				FAF710931E4E3EE200EE175B /* FoodList */,
+				FAF710921E4E3EE200EE175B /* Products */,
+				FA6592BE1E4FA33E00ED8CB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF710921E4E3EE200EE175B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF710911E4E3EE200EE175B /* FoodList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF710931E4E3EE200EE175B /* FoodList */ = {
+			isa = PBXGroup;
+			children = (
+				FAF710971E4E3EE200EE175B /* AppDelegate.h */,
+				FAF710981E4E3EE200EE175B /* AppDelegate.m */,
+				FAF7109D1E4E3EE200EE175B /* Main.storyboard */,
+				FAD07A6D1E4F567B00571F63 /* TADFoodDetailViewController.h */,
+				FAD07A6E1E4F567B00571F63 /* TADFoodDetailViewController.m */,
+				FA264AE81E4E472B00C53B0E /* TADAddFoodViewController.h */,
+				FA264AE91E4E472B00C53B0E /* TADAddFoodViewController.m */,
+				FAF710AB1E4E415100EE175B /* TADFoodTableViewController.h */,
+				FAF710AC1E4E415100EE175B /* TADFoodTableViewController.m */,
+				FAF710A01E4E3EE200EE175B /* Assets.xcassets */,
+				FAF710A21E4E3EE200EE175B /* LaunchScreen.storyboard */,
+				FAF710A51E4E3EE200EE175B /* Info.plist */,
+				FAF710941E4E3EE200EE175B /* Supporting Files */,
+			);
+			path = FoodList;
+			sourceTree = "<group>";
+		};
+		FAF710941E4E3EE200EE175B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF710951E4E3EE200EE175B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF710901E4E3EE200EE175B /* FoodList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF710A81E4E3EE200EE175B /* Build configuration list for PBXNativeTarget "FoodList" */;
+			buildPhases = (
+				FAF7108D1E4E3EE200EE175B /* Sources */,
+				FAF7108E1E4E3EE200EE175B /* Frameworks */,
+				FAF7108F1E4E3EE200EE175B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodList;
+			productName = FoodList;
+			productReference = FAF710911E4E3EE200EE175B /* FoodList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF710891E4E3EE200EE175B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Atharva Patil";
+				TargetAttributes = {
+					FAF710901E4E3EE200EE175B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HMY2RDXH38;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAF7108C1E4E3EE200EE175B /* Build configuration list for PBXProject "FoodList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF710881E4E3EE200EE175B;
+			productRefGroup = FAF710921E4E3EE200EE175B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF710901E4E3EE200EE175B /* FoodList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF7108F1E4E3EE200EE175B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF710A41E4E3EE200EE175B /* LaunchScreen.storyboard in Resources */,
+				FAF710A11E4E3EE200EE175B /* Assets.xcassets in Resources */,
+				FAF7109F1E4E3EE200EE175B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF7108D1E4E3EE200EE175B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF710991E4E3EE200EE175B /* AppDelegate.m in Sources */,
+				FAF710961E4E3EE200EE175B /* main.m in Sources */,
+				FA264AEA1E4E472B00C53B0E /* TADAddFoodViewController.m in Sources */,
+				FAF710AD1E4E415100EE175B /* TADFoodTableViewController.m in Sources */,
+				FAD07A6F1E4F567B00571F63 /* TADFoodDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAF7109D1E4E3EE200EE175B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF7109E1E4E3EE200EE175B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF710A21E4E3EE200EE175B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF710A31E4E3EE200EE175B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF710A61E4E3EE200EE175B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAF710A71E4E3EE200EE175B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF710A91E4E3EE200EE175B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HMY2RDXH38;
+				INFOPLIST_FILE = FoodList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atharva.FoodList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FAF710AA1E4E3EE200EE175B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HMY2RDXH38;
+				INFOPLIST_FILE = FoodList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atharva.FoodList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF7108C1E4E3EE200EE175B /* Build configuration list for PBXProject "FoodList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF710A61E4E3EE200EE175B /* Debug */,
+				FAF710A71E4E3EE200EE175B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF710A81E4E3EE200EE175B /* Build configuration list for PBXNativeTarget "FoodList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF710A91E4E3EE200EE175B /* Debug */,
+				FAF710AA1E4E3EE200EE175B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF710891E4E3EE200EE175B /* Project object */;
+}
